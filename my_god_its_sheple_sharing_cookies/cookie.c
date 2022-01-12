@@ -14,6 +14,7 @@ int main()
     
     printf("%.2f\n",cookies);
     x = cookies/people;
+    x = round(x);
     y = cookies-(people*x);
     
     printf("Cookies per person %.2f\n", x);
