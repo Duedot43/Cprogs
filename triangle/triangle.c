@@ -13,7 +13,10 @@ int main()
     c = sqrt(c);
     printf("%.2f",c);
    
-    
+    Perimeter = a+b+c;
+    printf("The perimeter of the triangle is: %.2f\n", Perimeter);
+    Area = 1/2*a*b;
+    printf("The area of the triangle is: %.2f\n", Area);
 
   return 0;
 }
