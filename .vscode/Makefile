@@ -11,3 +11,8 @@ tom: ../tom/tom.c
 	$(CC) -g ../tom/tom.c -o ../bin/tom -lm
 triangle: ../triangle/triangle.c
 	$(CC) -g ../triangle/triangle.c -o ../bin/triangle -lm
+
+.PHONY: clean
+
+clean:
+	rm -f ../bin/*
