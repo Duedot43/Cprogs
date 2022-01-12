@@ -13,9 +13,7 @@ int main()
     c = sqrt(c);
     printf("%.2f",c);
    
-  printf("\n Perimeter of Traiangle = %.2f\n", Perimeter);
-  printf("\n Semi Perimeter of Traiangle = %.2f\n",s);
-  printf("\n Area of triangle = %.2f\n",Area);
+    
 
   return 0;
 }
