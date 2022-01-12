@@ -1,9 +1,0 @@
-// convenience header
-#include "KDSoapDelayedResponseHandle.h"
-#include "KDSoapServerGlobal.h"
-#include "KDSoapThreadPool.h"
-#include "KDSoapServerObjectInterface.h"
-#include "KDSoapServerAuthInterface.h"
-#include "KDSoapServerRawXMLInterface.h"
-#include "KDSoapServerCustomVerbRequestInterface.h"
-#include "KDSoapServer.h"
