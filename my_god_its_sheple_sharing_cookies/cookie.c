@@ -10,9 +10,9 @@ int main()
     printf("\nPlease Enter number of cookies\n");
     scanf("%f",&cookies);
     
-    printf("%.2f\n",people);
+    printf("people %.2f\n",people);
     
-    printf("%.2f\n",cookies);
+    printf("cookies %.2f\n",cookies);
     x = cookies/people;
     x = round(x);
     y = cookies-(people*x);
