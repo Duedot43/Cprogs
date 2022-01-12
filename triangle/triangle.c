@@ -11,11 +11,11 @@ int main()
     c = a*a+b*b;
     printf("%.2f\n",c);
     c = sqrt(c);
-    printf("%.2f",c);
+    printf("%.2f\n",c);
    
     Perimeter = a+b+c;
     printf("The perimeter of the triangle is: %.2f\n", Perimeter);
-    Area = 1/2*a*b;
+    Area = (a*b)/2;
     printf("The area of the triangle is: %.2f\n", Area);
 
   return 0;
