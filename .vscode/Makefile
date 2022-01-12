@@ -1,5 +1,5 @@
 CC=gcc
-all: hellofriend cookie pyrymadcalc tom triangle
+all: hellofriend cookie pyrymadcalc tom triangle grade
 
 hellofriend: ../src/hello.c
 	$(CC) -g ../src/hello.c -o ../bin/hellofriend -lm
@@ -11,6 +11,8 @@ tom: ../src/tom.c
 	$(CC) -g ../src/tom.c -o ../bin/tom -lm
 triangle: ../src/triangle.c
 	$(CC) -g ../src/triangle.c -o ../bin/triangle -lm
+grade: ../src/grade.c
+	$(CC) -g ../src/grade.c -o ../bin/grade -lm
 
 .PHONY: clean
 
