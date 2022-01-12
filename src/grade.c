@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main() {
-    float score, score2, out, grade;
+    float score, score2, out;
     printf("Please put the first part of your fraction grade(->1/5):\n");
     scanf("%f", &score);
     printf("Please input the second part of your fraction grade(1/5<-):\n");
