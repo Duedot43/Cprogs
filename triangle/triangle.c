@@ -17,6 +17,7 @@ int main()
     printf("The perimeter of the triangle is: %.2f\n", Perimeter);
     Area = (a*b)/2;
     printf("The area of the triangle is: %.2f\n", Area);
+    printf("The slant side is: %.2f\n", c);
 
   return 0;
 }
