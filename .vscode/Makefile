@@ -13,8 +13,18 @@ triangle: ../src/triangle.c
 	$(CC) -g ../src/triangle.c -o ../bin/triangle -lm
 grade: ../src/grade.c
 	$(CC) -g ../src/grade.c -o ../bin/grade -lm
-
+.PHONY: uninstall
+.PHONY: install
 .PHONY: clean
 
 clean:
 	rm -f ../bin/*
+install:
+	cp ../bin/* /bin/
+uninstall:
+	rm /bin/hellofriend
+	rm /bin/cookie
+	rm /bin/Pyrymad_calc
+	rm /bin/tom
+	rm /bin/triangle
+	rm /bin/grade
