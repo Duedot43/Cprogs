@@ -13,7 +13,7 @@ triangle: ./src/triangle.c
 	$(CC) -g ./src/triangle.c -o ./bin/triangle -lm
 grade: ./src/grade.c
 	$(CC) -g ./src/grade.c -o ./bin/grade -lm
-grade: ./src/cat_age.c
+cat_age: ./src/cat_age.c
 	$(CC) -g ./src/cat_age.c -o ./bin/cat_age -lm
 .PHONY: uninstall
 .PHONY: install
